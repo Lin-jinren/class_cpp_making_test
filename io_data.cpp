@@ -2,10 +2,18 @@
 
 Student::Student()
 {
+    name = "";
+    id = 0;
+    class_name = "";
+    bmi = 0;
+    for (int i = 0; i < 5; i++) {
+        grade[i] = 0.0;
+    }
 }
 
 Student::~Student()
 {
+
 }
 
 Student::Student(float g[], int len){

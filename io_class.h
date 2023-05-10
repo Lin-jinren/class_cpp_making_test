@@ -8,10 +8,11 @@ private:
     float weight;
     float height;
 public:
-    char name[20];
+    const char* name;
     int id;
-    char class_name[20];
+    const char* class_name;
     float grade[5];
+    float bmi;
     int g_len;
 
     float turn_cm_to_m(float);

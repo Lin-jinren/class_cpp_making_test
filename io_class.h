@@ -22,7 +22,7 @@ public:
 
     void set_weight(float);
     void set_height(float);
-    void set_public_info();
+    void show_public_info();
     void print_grade();
 
     Student();

@@ -43,7 +43,7 @@ void Student::set_height(float){
 
 }
 
-void Student::set_public_info(){
+void Student::show_public_info(){
 
 }
 

@@ -22,11 +22,11 @@ Student::Student(float g[], int len){
 }
 
 float Student::turn_cm_to_m(float){
-    return 0.0;
+    
 }
 
 float Student::get_BMI(){
-    return 0.0;
+
 }
 
 float Student::get_BMI(float, float){

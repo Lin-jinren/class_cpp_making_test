@@ -11,10 +11,9 @@ public:
     const char* name;
     int id;
     const char* class_name;
-    float grade[5];
     float bmi;
+    float grade[5];
     int g_len;
-
     float turn_cm_to_m(float);
     float get_BMI();
     float get_BMI(float, float);

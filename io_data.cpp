@@ -6,8 +6,8 @@ Student::Student()
   name;
   id;
   class_name;
-  bmi;
   grade;
+  g_len;
 }
 
 Student::Student(float g[], int len)
@@ -15,8 +15,8 @@ Student::Student(float g[], int len)
   name;
   id;
   class_name;
-  bmi;
   grade;
+  g_len;
 }
 
 float Student::turn_cm_to_m(float cm)
@@ -29,15 +29,13 @@ float Student::get_BMI()
 {
   float h = this->height;
   float w = this->weight;
-  bmi = get_BMI(h, w);
-  return bmi;
+  return get_BMI(h, w);
 }
 
 float Student::get_BMI(float h, float w)
 {
   h = turn_cm_to_m(h);
-  bmi = w/(h*h);
-  return bmi;
+  return w/(h*h);
 }
 
 float Student::get_grade_avg()
@@ -55,7 +53,8 @@ void Student::show_public_info()
   cout << "student name:" << this->name << endl;
   cout << "student id:" << this->id << endl;
   cout << "student class:" << this->class_name << endl;
-  cout << "student bmi:" << this->bmi << endl;
+  cout << "student bmi:" << this->get_BMI() << endl;
+  cout << "student grade:";
   print_grade();
 }
 

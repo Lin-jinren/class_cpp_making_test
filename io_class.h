@@ -5,14 +5,13 @@
 class Student // 定義學生模板，私有屬性身高以及體重
 {
 private:
-  float weight;
-  float height;
+  float weight = 50;
+  float height = 170;
 
 public:
   char name[20];
   int id;
   char class_name[20];
-  float bmi;
   float grade[5];
   int g_len;
   float turn_cm_to_m(float);

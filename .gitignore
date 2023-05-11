@@ -31,5 +31,8 @@
 *.out
 *.app
 
+#push back bat
+*.bat
+
 # Don't track any files in .vscode
 .vscode/*

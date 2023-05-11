@@ -3,22 +3,19 @@ using namespace std;
 
 Student::Student()
 {
-    name = "";
-    id = 0;
-    class_name = "";
-    bmi = 0;
-    for (int i = 0; i < 5; i++) {
-        grade[i] = 0.0;
-    }
-}
-
-Student::~Student()
-{
-
+    name[20];
+    id;
+    class_name[20];
+    bmi;
+    grade[5];
 }
 
 Student::Student(float g[], int len){
-    
+    name[20];
+    id;
+    class_name[20];
+    bmi;
+    grade[len];
 }
 
 float Student::turn_cm_to_m(float){

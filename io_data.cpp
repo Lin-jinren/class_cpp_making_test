@@ -4,25 +4,24 @@ using namespace std;
 Student::Student()
 {
   name;
-  id;
+  id = 0;
   class_name;
   grade;
-  g_len;
+  g_len = 0;
 }
 
 Student::Student(float g[], int len)
 {
   name;
-  id;
+  id = 0;
   class_name;
-  grade;
-  g_len;
+  for(int i = 0; i < len; i++){grade[i] = g[i];}
+  g_len = len;
 }
 
 float Student::turn_cm_to_m(float cm)
 {
-  cm = cm / 100.0;
-  return cm;
+  return cm / 100.0;
 }
 
 float Student::get_BMI()

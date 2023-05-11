@@ -19,11 +19,6 @@ Student::Student(float g[], int len)
   g_len = len;
 }
 
-float Student::turn_cm_to_m(float cm)
-{
-  return cm / 100.0;
-}
-
 float Student::get_BMI()
 {
   float h = this->height;

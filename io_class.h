@@ -11,7 +11,7 @@ public:
   float grade[5];
   int g_len;
 
-  float turn_cm_to_m(float);
+  float turn_cm_to_m(float cm){return cm / 100.0;}
   float get_BMI();
   float get_BMI(float, float);
   float get_grade_avg();

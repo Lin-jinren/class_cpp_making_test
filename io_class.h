@@ -24,7 +24,7 @@ public:
   Student();
   ~Student(){};
   Student(float g[], int len);
-  Student(float w, float h) : weight(w), height(h) { g_len = 0, id = 0; }
+  Student(float h, float w) : weight(w), height(h) { g_len = 0, id = 0; }
 
 private:
   float weight = 50;

@@ -50,6 +50,7 @@ void Student::show_public_info()
   cout << "student bmi:" << this->get_BMI() << endl;
   cout << "student grade:";
   print_grade();
+  cout << "student grade avager:" << this->get_grade_avg() <<endl;
   cout << endl;
 }
 

@@ -13,7 +13,7 @@ public:
   int id;
   char class_name[20];
   float grade[5];
-  int g_len;
+  int g_len = 5;
   float turn_cm_to_m(float);
   float get_BMI();
   float get_BMI(float, float);

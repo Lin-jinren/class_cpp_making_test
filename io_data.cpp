@@ -5,16 +5,16 @@ Student::Student()
 {
   grade;
   name;
-  id = 0;
+  id;
   class_name;
-  g_len = 0;
+  g_len;
 }
 
 Student::Student(float g[], int len)
 {
   for(int i = 0; i < len; i++){grade[i] = g[i];}
   name;
-  id = 0;
+  id;
   class_name;
   g_len = len;
 }

@@ -20,8 +20,8 @@ public:
   float get_BMI(float, float);
   float get_grade_avg();
 
-  void set_weight(float);
-  void set_height(float);
+  void set_weight(float w){weight=w;}
+  void set_height(float h){height=h;}
   void show_public_info();
   void print_grade();
 

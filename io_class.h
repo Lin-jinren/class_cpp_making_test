@@ -9,11 +9,11 @@ private:
   float height;
 
 public:
-  char name[NULL];
+  char name[20];
   int id;
-  char class_name[NULL];
+  char class_name[20];
   float bmi;
-  float grade[NULL];
+  float grade[5];
   int g_len;
   float turn_cm_to_m(float);
   float get_BMI();

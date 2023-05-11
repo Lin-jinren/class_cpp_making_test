@@ -3,20 +3,20 @@ using namespace std;
 
 Student::Student()
 {
-  name[20];
+  name;
   id;
-  class_name[20];
+  class_name;
   bmi;
-  grade[5];
+  grade;
 }
 
 Student::Student(float g[], int len)
 {
-  name[20];
+  name;
   id;
-  class_name[20];
+  class_name;
   bmi;
-  grade[len];
+  grade;
 }
 
 float Student::turn_cm_to_m(float cm)

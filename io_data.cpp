@@ -3,19 +3,19 @@ using namespace std;
 
 Student::Student()
 {
+  grade;
   name;
   id = 0;
   class_name;
-  grade;
   g_len = 0;
 }
 
 Student::Student(float g[], int len)
 {
+  for(int i = 0; i < len; i++){grade[i] = g[i];}
   name;
   id = 0;
   class_name;
-  for(int i = 0; i < len; i++){grade[i] = g[i];}
   g_len = len;
 }
 

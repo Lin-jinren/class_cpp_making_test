@@ -4,10 +4,6 @@
 
 class Student // 定義學生模板，私有屬性身高以及體重
 {
-private:
-  float weight = 50;
-  float height = 170;
-
 public:
   char name[20];
   int id;
@@ -29,4 +25,8 @@ public:
   ~Student(){};
   Student(float g[], int len);
   Student(float w, float h) : weight(w), height(h) { g_len = 0, id = 0; }
+
+private:
+  float weight = 50;
+  float height = 170;
 };

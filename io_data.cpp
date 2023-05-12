@@ -56,7 +56,7 @@ void Student::show_public_info()
 
 void Student::print_grade()
 {
-  for (int i; i < g_len; i++)
+  for (int i = 0; i < g_len; i++)
   {
     i == g_len-1 ? cout << this->grade[i] << endl : cout << this->grade[i] << ",";
   }
